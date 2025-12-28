@@ -1,0 +1,47 @@
+# 실행 파일 및 악성코드 샘플
+*.exe
+*.dll
+*.sys
+*.bin
+*.dmp
+samples/
+
+# 분석 도구 출력
+*.idb
+*.i64
+*.log
+*.gzf
+dumps/
+
+# 개인 정보
+*.pcap
+passwords.txt
+notes/private/
+
+# 임시 파일
+*.tmp
+*.bak
+~*
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
